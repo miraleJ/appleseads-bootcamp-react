@@ -2,7 +2,7 @@ import React from 'react'
 
 const Box4 = () => {
     return (
-        <div></div>
+        <div className='box-4'></div>
     )
 }
 

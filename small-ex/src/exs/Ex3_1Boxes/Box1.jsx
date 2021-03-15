@@ -3,8 +3,8 @@ import Box2 from './Box2'
 
 const Box1 = () => {
     return (
-        <div>
-            <Box2 className='box2' />
+        <div className='box-1'>
+            <Box2 />
         </div>
     )
 }

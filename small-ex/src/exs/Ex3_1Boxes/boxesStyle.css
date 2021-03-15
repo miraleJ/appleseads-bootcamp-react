@@ -1,32 +1,32 @@
 .box-1{
     width: 500px;
     height: 500px;
-    background-color: greenyellow;
+    background-color: rgb(26, 154, 139);
 }
 
-.box2{
+.box-2{
     position: absolute;
     margin-top: 25px;
     margin-left: 25px;
     width: 450px;
     height: 450px;
-    background-color: dodgerblue;
+    background-color: rgb(66, 1, 187);
 }
 
-.box3{
+.box-3{
     position: absolute;
     margin-top: 25px;
     margin-left: 25px;
     width: 400px;
     height: 400px;
-    background-color:lightpink;
+    background-color:rgb(255, 0, 132);
 }
 
-.box4{
+.box-4{
     margin-top: 25px;
     margin-left: 25px;
     width: 350px;
-    height: 100px;
-    background-color:red;
+    height: 162.5px;
+    background-color:rgb(99, 71, 145);
 }
 
