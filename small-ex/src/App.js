@@ -5,7 +5,8 @@ import './App.css';
 // import Boxes from './exs/Ex3_1Boxes/Boxes'
 // import Quiz from './exs/Ex3_2Quiz/Quiz'
 // import Buttons from './exs/Ex4_1/Buttons'
-import Cards from './exs/Ex4_2/Cards'
+// import Cards from './exs/Ex4_2/Cards'
+import ButtonAndCounterLable from './exs/Ex7_1/ButtonAndCounterLable'
 
 
 
@@ -20,7 +21,8 @@ function App() {
       {/* <Boxes></Boxes> */}
       {/* <Quiz></Quiz> */}
       {/* <Buttons /> */}
-      <Cards />
+      {/* <Cards /> */}
+      <ButtonAndCounterLable />
 
     </div>
   );
