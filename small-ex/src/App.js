@@ -6,8 +6,8 @@ import './App.css';
 // import Quiz from './exs/Ex3_2Quiz/Quiz'
 // import Buttons from './exs/Ex4_1/Buttons'
 // import Cards from './exs/Ex4_2/Cards'
-import ButtonAndCounterLable from './exs/Ex7_1/ButtonAndCounterLable'
-
+// import ButtonAndCounterLable from './exs/Ex7_1/ButtonAndCounterLable'
+import BoxAndButton from './exs/Ex7_2/BoxAndButton'
 
 
 function App() {
@@ -22,7 +22,8 @@ function App() {
       {/* <Quiz></Quiz> */}
       {/* <Buttons /> */}
       {/* <Cards /> */}
-      <ButtonAndCounterLable />
+      {/* <ButtonAndCounterLable /> */}
+      <BoxAndButton />
 
     </div>
   );
