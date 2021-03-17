@@ -2,7 +2,10 @@ import React from 'react'
 
 const Link = (props) => {
     return (
-        <a className='link' href={`${props.address}`}>Link </a>
+        <div>
+            <a className='link' href={`${props.address}`}>Link </a>
+            <br/>
+        </div>
     )
 }
 
