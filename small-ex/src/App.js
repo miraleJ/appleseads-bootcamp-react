@@ -7,8 +7,8 @@ import './App.css';
 // import Buttons from './exs/Ex4_1/Buttons'
 // import Cards from './exs/Ex4_2/Cards'
 // import ButtonAndCounterLable from './exs/Ex7_1/ButtonAndCounterLable'
-import BoxAndButton from './exs/Ex7_2/BoxAndButton'
-
+// import BoxAndButton from './exs/Ex7_2/BoxAndButton'
+import FavoritColor from './exs/Ex8_1/FavoritColor'
 
 function App() {
   return (
@@ -23,7 +23,8 @@ function App() {
       {/* <Buttons /> */}
       {/* <Cards /> */}
       {/* <ButtonAndCounterLable /> */}
-      <BoxAndButton />
+      {/* <BoxAndButton /> */}
+      <FavoritColor />
 
     </div>
   );
