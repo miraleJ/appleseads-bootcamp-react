@@ -1,0 +1,22 @@
+.cards {
+    display: flex;
+}
+
+.card {
+    border: chocolate solid 2px;
+    display: inline-block;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(229, 181, 147);
+    border-radius: 10px;
+}
+
+.pic {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.data {
+    background-color: rgb(247, 228, 215);
+    border-radius: 10px;
+}
