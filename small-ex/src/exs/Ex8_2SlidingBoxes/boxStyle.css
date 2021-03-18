@@ -1,0 +1,17 @@
+.box {
+    margin: 1px;
+    height: 10px;
+    width: 10px;
+}
+
+.box1 {
+    background-color: rgb(77, 1, 148);
+}
+
+.box2 {
+    background-color: rgb(175, 69, 179);
+}
+
+.box3 {
+    background-color: rgb(1, 60, 148);
+}
