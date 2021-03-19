@@ -9,7 +9,8 @@ import './App.css';
 // import ButtonAndCounterLable from './exs/Ex7_1/ButtonAndCounterLable'
 // import BoxAndButton from './exs/Ex7_2/BoxAndButton'
 // import FavoritColor from './exs/Ex8_1/FavoritColor'
-import SlidingBoxes from './exs/Ex8_2SlidingBoxes/SlidingBoxes'
+// import SlidingBoxes from './exs/Ex8_2SlidingBoxes/SlidingBoxes'
+import ChangingBox from './exs/Ex8_3ChangingBox/ChangingBox'
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
       {/* <ButtonAndCounterLable /> */}
       {/* <BoxAndButton /> */}
       {/* <FavoritColor /> */}
-      <SlidingBoxes />
+      {/* <SlidingBoxes /> */}
+      <ChangingBox />
 
     </div>
   );
