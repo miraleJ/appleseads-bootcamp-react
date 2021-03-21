@@ -1,0 +1,11 @@
+.btn {
+    margin : 15px;
+    background-color: rgb(153, 222, 245);
+    border-radius: 5px;
+}
+
+.card {
+    padding: 15px;
+    background-color: rgb(124, 184, 245);
+    border:rgb(67, 79, 248);
+}

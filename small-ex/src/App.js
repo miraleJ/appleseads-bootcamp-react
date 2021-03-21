@@ -11,7 +11,8 @@ import './App.css';
 // import FavoritColor from './exs/Ex8_1/FavoritColor'
 // import SlidingBoxes from './exs/Ex8_2SlidingBoxes/SlidingBoxes'
 // import ChangingBox from './exs/Ex8_3ChangingBox/ChangingBox'
-import ColorPallette from './exs/Ex11.1/ColorPallette.component'
+// import ColorPallette from './exs/Ex11.1/ColorPallette.component'
+import Jokes from './exs/Ex12_1/Jokes.component'
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
       {/* <FavoritColor /> */}
       {/* <SlidingBoxes /> */}
       {/* <ChangingBox /> */}
-      <ColorPallette />
+      {/* <ColorPallette /> */}
+      <Jokes />
     </div>
   );
 }

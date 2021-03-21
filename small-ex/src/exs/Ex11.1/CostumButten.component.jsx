@@ -11,7 +11,7 @@ class costumButton extends React.Component {
                 }}
                 onClick={() => { this.props.parentHandler(this.props.color) }}
             >
-                That's My Color!
+                {this.props.color} is My Color!
             </button>
         );
     };
