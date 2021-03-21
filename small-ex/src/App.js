@@ -10,7 +10,8 @@ import './App.css';
 // import BoxAndButton from './exs/Ex7_2/BoxAndButton'
 // import FavoritColor from './exs/Ex8_1/FavoritColor'
 // import SlidingBoxes from './exs/Ex8_2SlidingBoxes/SlidingBoxes'
-import ChangingBox from './exs/Ex8_3ChangingBox/ChangingBox'
+// import ChangingBox from './exs/Ex8_3ChangingBox/ChangingBox'
+import ColorPallette from './exs/Ex11.1/ColorPallette.component'
 
 function App() {
   return (
@@ -28,8 +29,8 @@ function App() {
       {/* <BoxAndButton /> */}
       {/* <FavoritColor /> */}
       {/* <SlidingBoxes /> */}
-      <ChangingBox />
-
+      {/* <ChangingBox /> */}
+      <ColorPallette />
     </div>
   );
 }
