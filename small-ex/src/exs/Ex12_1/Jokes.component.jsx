@@ -6,7 +6,8 @@ import './style.css'
 class Jokes extends React.Component {
     state = {
         joke : "",
-        categories : ['ooooooo','jjj']
+        categories : [],
+        selectedCat : "All"
     }
 
     async componentDidMount() {
@@ -26,6 +27,10 @@ class Jokes extends React.Component {
         this.setState({joke : j.data.value});    
     }
 
+    handlerDropDown = (e) => {
+        this.setState({selectedCat: e.target.value})
+    }
+
     render () {
         return (
             <div>
@@ -34,9 +39,11 @@ class Jokes extends React.Component {
                     desc= {this.state.joke}
                     newJoke={this.newJoke}
                 />
-                <select onChange={this.handlerDropDown}>
+                <select
+                    onChange={this.handlerDropDown}
+                >
                     <option>All</option>
-                    { this.state.categories.map((c, i) => <option key={`${i}`}>{c} </option>) }
+                    { this.state.categories.map((c, i) => <option key={i.toString()}>{c} </option>) }
                 </select>
             </div>
         )
