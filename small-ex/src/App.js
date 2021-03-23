@@ -13,9 +13,9 @@ import './App.css';
 // import ChangingBox from './exs/Ex8_3ChangingBox/ChangingBox'
 // import ColorPallette from './exs/Ex11.1/ColorPallette.component'
 // import Jokes from './exs/Ex12_1/Jokes.component'
-// import DataMassaging from './exs/Ex13.1/DataMasseging'
+import DataMassaging from './exs/Ex13.1/DataMasseging'
 // import InputFocusRef from './exs/Ex14.1/InputFocusRef.component'
-import TextareaValue from './exs/Ex14.2/TextareaValue.component'
+// import TextareaValue from './exs/Ex14.2/TextareaValue.component'
 
 function App() {
   return (
@@ -36,9 +36,9 @@ function App() {
       {/* <ChangingBox /> */}
       {/* <ColorPallette /> */}
       {/* <Jokes /> */}
-      {/* <DataMassaging /> */}
+      <DataMassaging />
       {/* <InputFocusRef /> */}
-      <TextareaValue />
+      {/* <TextareaValue /> */}
     </div>
   );
 }
