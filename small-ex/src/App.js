@@ -13,12 +13,13 @@ import Homepage from './exs/Ex16_1/Homepage.component';
 // import SlidingBoxes from './exs/Ex8_2SlidingBoxes/SlidingBoxes'
 // import ChangingBox from './exs/Ex8_3ChangingBox/ChangingBox'
 // import ColorPallette from './exs/Ex11.1/ColorPallette.component'
-import CheckboxList from './exs/Ex11_2Checkbox/CheckboxList.component'
+// import CheckboxList from './exs/Ex11_2Checkbox/CheckboxList.component'
 // import Jokes from './exs/Ex12_1/Jokes.component'
 // import DataMassaging from './exs/Ex13.1/DataMasseging'
 // import InputFocusRef from './exs/Ex14.1/InputFocusRef.component'
 // import TextareaValue from './exs/Ex14.2/TextareaValue.component'
 // import Homepagee from './exs/Ex16_1/Homepage.component'
+import PContainer from './exs/Ex18_1SeeMore/PContainer.component'
 
 function App() {
   return (
@@ -38,12 +39,13 @@ function App() {
       {/* <SlidingBoxes /> */}
       {/* <ChangingBox /> */}
       {/* <ColorPallette /> */}
-      <CheckboxList />
+      {/* <CheckboxList /> */}
       {/* <Jokes /> */}
       {/* <DataMassaging /> */}
       {/* <InputFocusRef /> */}
       {/* <TextareaValue /> */}
       {/* <Homepagee /> */}
+      <PContainer />
     </div>
   );
 }
