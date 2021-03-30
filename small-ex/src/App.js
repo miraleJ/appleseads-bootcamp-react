@@ -22,7 +22,8 @@ import './App.css';
 // import PContainer from './exs/Ex18_1SeeMore/PContainer.component'
 // import ToDoList from './exs/Ex18_2ToDoList/ToDoList.component'
 // import TimeCalculator from './exs/Ex18_3TimeCalculator/TimeCalculator.component'
-import FetchAPI from './exs/Ex19.1SimpleFetch/FetchAPI.component'
+// import FetchAPI from './exs/Ex19.1SimpleFetch/FetchAPI.component'
+import CountriesList from './exs/Ex19_2FilterCountries/CountriesList.component';
 
 function App() {
   return (
@@ -51,7 +52,8 @@ function App() {
       {/* <PContainer /> */}
       {/* <ToDoList /> */}
       {/* <TimeCalculator /> */}
-      <FetchAPI />
+      {/* <FetchAPI /> */}
+      <CountriesList />
     </div>
   );
 }
