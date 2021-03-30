@@ -12,12 +12,12 @@ const ToDoList = () => {
         ]
     );
 
-        const clickHandle = (event) => {
-            // change completed
-            let newState = [...fullToDoList];
-            newState[newState.findIndex(val => event.target.innerText.slice(1) === val.name)].completed = !newState[newState.findIndex(val => event.target.innerText.slice(1) === val.name)].completed;
-            setFullToDoList(newState);
-        }
+    const clickHandle = (event) => {
+        // change completed
+        let newState = [...fullToDoList];
+        newState[newState.findIndex(val => event.target.innerText.slice(1) === val.name)].completed = !newState[newState.findIndex(val => event.target.innerText.slice(1) === val.name)].completed;
+        setFullToDoList(newState);
+    }
 
     return (
         <div>

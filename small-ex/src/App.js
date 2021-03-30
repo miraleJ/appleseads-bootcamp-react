@@ -20,7 +20,8 @@ import './App.css';
 // import TextareaValue from './exs/Ex14.2/TextareaValue.component'
 // import Homepagee from './exs/Ex16_1/Homepage.component'
 // import PContainer from './exs/Ex18_1SeeMore/PContainer.component'
-import ToDoList from './exs/Ex18_2ToDoList/ToDoList.component'
+// import ToDoList from './exs/Ex18_2ToDoList/ToDoList.component'
+import TimeCalculator from './exs/Ex18_3TimeCalculator/TimeCalculator.component'
 
 function App() {
   return (
@@ -47,7 +48,8 @@ function App() {
       {/* <TextareaValue /> */}
       {/* <Homepagee /> */}
       {/* <PContainer /> */}
-      <ToDoList />
+      {/* <ToDoList /> */}
+      <TimeCalculator />
     </div>
   );
 }
