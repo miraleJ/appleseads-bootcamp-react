@@ -23,7 +23,8 @@ import './App.css';
 // import ToDoList from './exs/Ex18_2ToDoList/ToDoList.component'
 // import TimeCalculator from './exs/Ex18_3TimeCalculator/TimeCalculator.component'
 // import FetchAPI from './exs/Ex19.1SimpleFetch/FetchAPI.component'
-import CountriesList from './exs/Ex19_2FilterCountries/CountriesList.component';
+// import CountriesList from './exs/Ex19_2FilterCountries/CountriesList.component';
+import SearchBar from './exs/Ex19_3SearchInApi/SearchBar.component';
 
 function App() {
   return (
@@ -53,7 +54,8 @@ function App() {
       {/* <ToDoList /> */}
       {/* <TimeCalculator /> */}
       {/* <FetchAPI /> */}
-      <CountriesList />
+      {/* <CountriesList /> */}
+      <SearchBar />
     </div>
   );
 }
