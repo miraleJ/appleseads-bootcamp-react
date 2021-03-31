@@ -24,7 +24,8 @@ import './App.css';
 // import TimeCalculator from './exs/Ex18_3TimeCalculator/TimeCalculator.component'
 // import FetchAPI from './exs/Ex19.1SimpleFetch/FetchAPI.component'
 // import CountriesList from './exs/Ex19_2FilterCountries/CountriesList.component';
-import SearchBar from './exs/Ex19_3SearchInApi/SearchBar.component';
+// import SearchBar from './exs/Ex19_3SearchInApi/SearchBar.component';
+import FetchButton from './exs/Ex20.1FetchFromApi/FetchButton.component';
 
 function App() {
   return (
@@ -55,7 +56,8 @@ function App() {
       {/* <TimeCalculator /> */}
       {/* <FetchAPI /> */}
       {/* <CountriesList /> */}
-      <SearchBar />
+      {/* <SearchBar /> */}
+      <FetchButton url='https://swapi.dev/api/films/1/' />
     </div>
   );
 }
